@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">hw1</string>
-    <string name="title_activity_filter">FilterActivity</string>
+    <string name="app_name">О себе</string>
+    <string name="title_activity_filter">Фильтр</string>
     <string name="idea">Идея проекта</string>
     <string name="skills">Навыки</string>
 </resources>
