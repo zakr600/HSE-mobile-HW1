@@ -14,7 +14,7 @@ import kotlin.math.min
 
 data class Dat(val name: String, val form: String, val github_url: String, val description: String, val skills: ArrayList<String>, val durations: ArrayList<String>)
 
-class MainAdapter(val dat: Dat) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
+class MainAdapter(private val dat: Dat) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
     inner class UserInfoHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         var name = itemView.user_name
         var form = itemView.user_form

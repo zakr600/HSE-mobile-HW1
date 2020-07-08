@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val dat = Dat("Zakhar", "10", "http://github.com/zakr600", "Sample text", arrayListOf("dasdas", "C", "3"), arrayListOf("1y", "2y", "3y"))
+        val dat = Dat("Zakhar", "10 класс", "http://github.com/zakr600", "Sample text", arrayListOf("dasdas", "C", "3"), arrayListOf("1y", "2y", "3y"))
         for (i in 0..100) {
             dat.skills.add(i.toString())
             dat.durations.add(i.toString())
