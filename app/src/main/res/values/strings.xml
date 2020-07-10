@@ -3,4 +3,5 @@
     <string name="title_activity_filter">Фильтр</string>
     <string name="idea">Идея проекта</string>
     <string name="skills">Навыки</string>
+    <string name="all">Всё</string>
 </resources>
